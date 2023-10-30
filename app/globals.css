@@ -1,3 +1,5 @@
+/* E:\programming\Project\transvidtexter\app\globals.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +26,12 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
 }
